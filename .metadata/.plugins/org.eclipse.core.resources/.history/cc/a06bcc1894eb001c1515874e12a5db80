@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD 추가 -->
+<!DOCTYPE note
+[
+<!ELEMENT memberList (family)>
+<!ELEMENT mother (#PCDATA)>
+<!ELEMENT father (#PCDATA)>
+<!ELEMENT daughter (#PCDATA)>
+<!ELEMENT body (#PCDATA)>
+]>
+   
+<memberList>
+	<family>
+		<mother>
+			<name>신시은</name>
+			<age>24</age>
+			<birthday>1999-10-31</birthday>
+			<favorite-food>마라탕</favorite-food>
+		</mother>
+		<father>
+			<name>최현명</name>
+			<age>26</age>
+			<birthday>1997-08-09</birthday>
+			<favorite-food>제육볶음</favorite-food>
+		</father>
+		<daughter>	
+			<hamster>베리</hamster>
+			<hamster-age>D+174</hamster-age>
+			<born>2021-12-23</born>
+			<birthday>2022-01-08</birthday>
+			<favorite-food>해바라기씨</favorite-food>
+		</daughter>	
+	</family>
+</memberList>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<koreanMajorCities>
+	<city>
+		<name>서울</name>
+		<class>특별시</class>
+	</city>
+	<ciity>
+		<name>부산</name>
+		<class>광역시</class>
+	</ciity>
+	<ciity>
+		<name>인천</name>
+		<class>광역시</class>
+	</ciity>
+	<ciity>
+		<name>대전</name>
+		<class>광역시</class>
+	</ciity>
+	<ciity>
+		<name>광주</name>
+		<class>광역시</class>
+	</ciity>
+	<ciity>
+		<name>울산</name>
+		<class>광역시</class>
+	</ciity>
+	<ciity>
+		<name>수원</name>
+		<class>시</class>
+	</ciity>
+	<ciity>
+		<name>청주</name>
+		<class>시</class>
+	</ciity>
+	<ciity>
+		<name>목포</name>
+		<class>시</class>
+	</ciity>
+</koreanMajorCities>

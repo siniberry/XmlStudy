@@ -1,0 +1,14 @@
+/* =======================
+   WeatherDTO.java
+========================= */
+
+package com.test;
+
+public class WeatherDTO
+{
+	// 주요 속성 구성
+	private String tmEf, wf
+	//-- tmEf 	→ 날짜와 시간 태그
+	//             2022-06-19 00:00
+	//-- wf     → 날씨 예보 태그
+}

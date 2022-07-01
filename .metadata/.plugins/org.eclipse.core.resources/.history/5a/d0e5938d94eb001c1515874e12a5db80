@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- DTD 추가 -->
+<!DOCTYPE note
+[
+<!ELEMENT memberList (mother, father, hamster)>
+<!ELEMENT mother (name, age, birthday, favorite-food)>
+<!ELEMENT father (name, age, birthday, favorite-food)>
+<!ELEMENT hamster (name, age, born, birthday, favorite-food)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT birthday (#PCDATA)>
+<!ELEMENT favorite-food (#PCDATA)>
+<!ELEMENT born (#PCDATA)>
+]>
+   
+<memberList>
+	<mother>
+		<name>신시은</name>
+		<age>24</age>
+		<birthday>1999-10-31</birthday>
+		<favorite-food>마라탕</favorite-food>
+	</mother>
+	<father>	
+		<name>최현명</name>
+		<age>26</age>
+		<birthday>1997-08-09</birthday>
+		<favorite-food>제육볶음</favorite-food>
+	</father>
+	<hamster>
+		<name>베리</name>
+		<age>D+174</age>
+		<born>2021-12-23</born>
+		<birthday>2022-01-08</birthday>
+		<favorite-food>해바라기씨</favorite-food>
+	</hamster>
+</memberList>
